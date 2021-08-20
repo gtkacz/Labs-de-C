@@ -16,10 +16,10 @@ int main(int argc, char *argv[]) {
             printf("Erro! Numero nao pode ser zero.\n");
         }
         else if (n1 % n2 == 0 || n2 % n1 == 0) {  
-            printf("(%d) é múltiplo de %d\n", n1, n2);
+            printf("%d é múltiplo de %d\n", n1, n2);
         }
         else {
-            printf("Os número não são múltiplos.\n");
+            printf("Os números não são múltiplos.\n");
         }
     }
 
